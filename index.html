@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body style="background-color: black">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <script>
+
+   $(document).ready(function(){
+      $("#img1").hide();
+      $("#button1").click(function(){
+        $("#img1").fadeIn();
+        $("#img1").fadeOut();
+      });
+      });
+
+   $(document).ready(function(){
+      $("#img2").hide();
+      $("#button2").click(function(){
+        $("#img2").fadeIn();
+        $("#img2").fadeOut();
+      });
+      });
+
+   $(document).ready(function(){
+      $("#img3").hide();
+      $("#button3").click(function(){
+        $("#img3").fadeIn();
+        $("#img3").fadeOut();
+      });
+      });
+   
+    </script>
+
+   <button type="submit" id="button1" value="button1" style="font-size: 40px; color: orange; background: purple;">Happy Halloween</button>
+
+   <button type="submit" id="button2" value="button2" style="font-size: 40px; color: green; background: red;">Merry Christmas</button>
+
+   <button type="submit" id="button3" value="button3" style="font-size: 40px; color: pink; background: yellow;">Happy Birthday</button>
+
+   <img id="img1" src="https://pbs.twimg.com/media/DEXGlesUIAAtj3r.jpg" style="float: left;  width: 700px; height: 600px"></img>
+
+   <img id="img2" src="https://i.ytimg.com/vi/N333l9Rj4Xg/maxresdefault.jpg" style="float: left;  width: 700px; height: 600px"></img>
+
+   <img id="img3" src="https://static.wikia.nocookie.net/00366217-7836-4421-8c38-5d36a6dfed48/scale-to-width/755" style="float: left;  width: 700px; height: 600px"></img>
+
+
+  </body>
+</html>
+
